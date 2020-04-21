@@ -1,0 +1,367 @@
+*{
+	font-family: monospace,cursive,sans-serif;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+header{
+	padding: 8px 50px;
+	text-align: center;
+	font-size: 50px;
+}
+
+h2{
+	padding: 20px;
+	text-align: center;
+	font-size: 50px;
+}
+
+h3{
+	padding: 20px;
+	text-align: center;
+	font-size: 30px;
+}
+
+ul{
+	list-style-type: none;
+	margin-top: 20px;
+	font-size: 30px;	
+}
+
+li a{
+	display: block;
+	padding: 18px 16px;
+	text-decoration: none;
+	color: #EFC958;
+}
+
+li a:hover{
+cursor: pointer;
+display: block;
+background-color: #4AB19D;
+color: #EF3D59;
+}
+
+table{
+	display: block;
+	max-width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 150px;	
+}
+
+td{
+	padding: 5px 10px;	
+	color: #E17A47;	
+	font-size: 20px;	
+}
+
+.section1 , .section2{
+	display: relative;
+	margin: 0% 20%;
+	padding: 20px;	
+}
+
+.profile p{
+	text-align: center;
+	font-size: 30px;
+	padding: 30px;
+}
+
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.sportsBox ,.languagesBox{
+	padding: 20px;
+	overflow: auto;
+	position: relative;
+}
+
+.sportsList, .languagesList{
+	float: left;
+}
+
+.showButton,.gameButton button{
+	font-size: 20px;
+	border-radius: 12px;
+	padding: 10px;
+	background-color: #EFC958;
+	color: #EF3D59;
+	border: solid;
+	border-width: 1px;
+	cursor: pointer;	
+	outline: none;
+}
+
+.showButton:hover,.gameButton button:hover{
+	background-color: #EF3D59;
+	color: #EFC958;	
+}
+
+.slideshow-container {
+	float: right;
+	position: absolute;
+	right: 60px;
+}
+
+.mySlidesSports, .mySlidesLanguages {
+  display: none;
+}
+
+.mySlidesSports img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mySlidesLanguages img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mySlidesLanguages p{
+	text-align: center;
+	padding: 20px;
+}
+
+.dotSports {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #E17A47;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.dotLanguages{
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #E17A47;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.navigate {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #E17A47;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.activeNavigate, .activeSports, .dotSports:hover {
+  background-color: #EF3D59;
+}
+
+.activeNavigate, .activeLanguages, .dotLanguages:hover {
+  background-color: #EF3D59;
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 0.5s;
+  animation-name: fade;
+  animation-duration: 0.5s;
+}
+
+.answer{
+	display: none;
+	color: #EF3D59;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.text {
+  font-size: 20px;
+  padding: 18px 12px;
+  position: relative;
+  bottom: 8px;
+  width: 100%;
+  padding-left: 50px;
+  color: #E17A47;
+}
+
+.level {
+	margin-left: 20px;
+	border: solid;
+	background-color: #EF3D59;
+}
+
+.window{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	height: 520px;
+	max-width: 70%;
+	position: relative;
+}
+
+.me{
+	font-size: 50px;
+	display: block;
+	float: left;
+	width: 50%;
+	text-align: center;
+	color: #EF3D59;
+}
+
+.you{
+	float: right;
+	width: 50%;
+	font-size: 50px;
+	text-align: center;
+	color: #4AB19D;
+}
+
+.hands{
+	clear: both;
+	height: 350px;
+}
+
+.meHands, .youHands {
+	display: none;
+}
+
+.scores{
+	display: block;
+	float: left;
+	padding-left: 30px;
+	font-size: 30px;
+	width: 33%;
+}
+
+.gameButton{
+	display: block;
+	padding: 34px 0px;
+	float: left;
+	width: 34%;
+	text-align: center;
+}
+
+.weapons{
+	float: left;
+	width: 33%;
+	padding-left: 90px;
+}
+
+/* The containerRadio */
+.containerRadio {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #E17A47;
+}
+
+/* Hide the browser's default radio button */
+.containerRadio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.containerRadio:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.containerRadio input:checked ~ .checkmark {
+  background-color: #EF3D59;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.containerRadio input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.containerRadio .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+.shakeHands{
+	position: relative;
+  animation-name: shake;
+  animation-duration: 0.1s;
+  animation-timing-function: linear;
+  animation-iteration-count: 8;
+  animation-direction: alternate;
+}
+
+@keyframes shake {
+  10% {left:0px; top:-30px;}
+  100% {left:0px; top:30px;}
+}
+
+
+.cEF3D59{
+	color: #EF3D59;	
+}
+
+.cE17A47{
+	color: #E17A47;	
+}
+
+.cEFC958{
+	color: #EFC958;	
+}
+
+.c4AB19D{
+	color: #4AB19D;	
+}
+
+.c344E5C{
+	background-color: #344E5C;	
+}

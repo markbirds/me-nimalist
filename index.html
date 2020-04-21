@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>me-nimalist</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/jquery-3.5.0.min.js"></script>
+</head>
+<body class="c344E5C">
+	<div style="text-align:center;position: fixed;top: 20px;right: 20px;">
+	  <span class="navigate" onclick="currentNavigate(1)"></span>
+	  <span class="navigate" onclick="currentNavigate(2)"></span>
+	</div>	
+<div class="section1">
+	<header class="c4AB19D">
+		<h1>me-nimalist</h1>
+	</header>
+	<div class="cEFC958">
+		<h2>My Profile</h2>
+	</div>
+	<div>
+		<img src="images/profile.jpg" alt="profile" class="center" style="height: 300px;">
+	</div>
+	<div class="profile">
+		<p class="cE17A47">
+			Name: Owen Patrick F. Falculan <br>
+			Age: 20 <br>
+			Brithday: March 29,2000 <br>
+			Lives in: Lipa City <br>
+			Course: BS Information Technology <br>
+		</p>
+	</div>
+	<div style="height: 2px; background-color: #4AB19D"></div>	
+</div>
+
+<div class="section2">
+	<div>
+		<h2 class="cEF3D59">Sports and Coding</h2>
+	</div>
+	<div>
+		<h3 class="cEFC958">My Sports</h3>
+	</div>
+	<div class="sportsBox">
+		<div class="sportsList">
+			<ul>
+				<li><a onclick="currentSlideSports(1)">Basketball</a></li>
+				<li><a onclick="currentSlideSports(2)">Volleyball</a></li>
+				<li><a onclick="currentSlideSports(3)">Badminton</a></li>
+				<li><a onclick="currentSlideSports(4)">Table Tennis</a></li>
+				<li><a onclick="currentSlideSports(5)">Reverse Checkers</a></li>
+				<li><a onclick="currentSlideSports(6)">Chess</a></li>
+			</ul>
+		</div>
+		<div class="slideshow-container">
+			<div class="mySlidesSports fade">
+			   	<img src="images/basketball.png" style="height: 350px;">
+			    <div class="text">Mastery Level: <span class="level" style="padding: 0px 50px;"> </span></div>
+			</div>
+
+			<div class="mySlidesSports fade">
+			    <img src="images/volleyball.png" style="height: 350px;">
+			    <div class="text">Mastery Level: <span class="level" style="padding: 0px 30px;"> </span></div>
+			</div>
+
+			<div class="mySlidesSports fade">
+			     <img src="images/badminton.png" style="height: 350px;">
+			     <div class="text">Mastery Level: <span class="level" style="padding: 0px 40px;"> </span></div>
+			</div>
+
+			<div class="mySlidesSports fade">
+			     <img src="images/tabletennis.png" style="height: 350px;">
+			     <div class="text">Mastery Level: <span class="level" style="padding: 0px 40px;"> </span></div>
+			</div>
+
+			<div class="mySlidesSports fade">
+			     <img src="images/checkers.png" style="height: 350px;">
+			     <div class="text">Mastery Level: <span class="level" style="padding: 0px 60px;"> </span></div>
+			</div>
+
+			<div class="mySlidesSports fade">
+			     <img src="images/chess.png" style="height: 350px;">
+			     <div class="text">Mastery Level: <span class="level" style="padding: 0px 10px;"> </span></div>
+			</div>
+			<!-- The dots/circles -->
+			<div style="text-align:center">
+			  <span class="dotSports" onclick="currentSlideSports(1)"></span>
+			  <span class="dotSports" onclick="currentSlideSports(2)"></span>
+			  <span class="dotSports" onclick="currentSlideSports(3)"></span>
+			  <span class="dotSports" onclick="currentSlideSports(4)"></span>
+			  <span class="dotSports" onclick="currentSlideSports(5)"></span>
+			  <span class="dotSports" onclick="currentSlideSports(6)"></span>
+			</div>
+
+		</div>	
+	</div>
+	<br>
+	<div style="clear: left;">
+		<h3 class="cEFC958">Languages</h3>
+	</div>
+	<div class="languagesBox">
+		<div class="languagesList">
+			<ul>
+				<li><a onclick="currentSlideLanguages(1)">HTML</a></li>
+				<li><a onclick="currentSlideLanguages(2)">CSS</a></li>
+				<li><a onclick="currentSlideLanguages(3)">Javascript</a></li>
+				<li><a onclick="currentSlideLanguages(4)">C++</a></li>
+				<li><a onclick="currentSlideLanguages(5)">Python</a></li>
+				<li><a onclick="currentSlideLanguages(6)">Java</a></li>
+				<li><a onclick="currentSlideLanguages(7)">PHP</a></li>
+				<li><a onclick="currentSlideLanguages(8)">SQL</a></li>
+			</ul>
+		</div>
+			<!-- Slideshow container -->
+			<div class="slideshow-container" style="width: 500px;right: 30px;top: 50px;">
+		  		<div class="mySlidesLanguages fade">
+		    		<img src="images/html.png" style="height: 350px;">
+		    		<p class="c4AB19D" style="font-size: 20px;">Introduced to me when I was in First Year! 
+		    		<br>Literally dont know how to use it up until Christmas.<br></p>
+					<div class="text" style="padding-left: 140px;">Mastery Level: <span class="level" style="padding: 0px 10px;"> </span></div>
+		  		</div>
+		  		<div class="mySlidesLanguages fade">
+		    		<img src="images/css.png" style="height: 350px;">
+		    		<p class="c4AB19D" style="font-size: 20px;">Same as HTML..</p>
+					<div class="text" style="padding-left: 140px;">Mastery Level: <span class="level" style="padding: 0px 10px;"> </span></div>
+		  		</div>
+		  		<div class="mySlidesLanguages fade">
+		    		<img src="images/js.png" style="height: 350px;">
+		    		<p class="c4AB19D" style="font-size: 20px;">Don't know how to use it at the moment :( 
+		    		<br>Just copying some codes on the Internet.</p>
+	    			<div class="text" style="padding-left: 140px;">Mastery Level: <span class="level" style="padding: 0px 5px;"> </span></div>
+		  		</div>
+		  		<div class="mySlidesLanguages fade">
+		    		<img src="images/cpp.png" style="height: 350px;">
+		    		<p class="c4AB19D" style="font-size: 17px;">First programming language I learned. <br>
+		    		We took Computer Programming 1 and Data Structures at the same time..
+		    		That's why I dont know how to implement Data Structures! :(</p>
+		    		<div class="text" style="padding-left: 140px;">Mastery Level: <span class="level" style="padding: 0px 20px;"> </span></div>
+		  		</div>
+		  		<div class="mySlidesLanguages fade">
+		    		<img src="images/python.png" style="height: 350px;">
+		    		<p class="c4AB19D" style="font-size: 20px;">Learned this language next to C++ last summer. <br>This is my favorite langauge cause of its simplicity and built-ins!</p>
+		    		<div class="text" style="padding-left: 140px;">Mastery Level: <span class="level" style="padding: 0px 60px;"> </span></div>
+		  		</div>
+		  		<div class="mySlidesLanguages fade">
+		    		<img src="images/java.png" style="height: 350px;">
+				    <p class="c4AB19D" style="font-size: 20px;">Learned this language last semester on our subject Object Oriented Programming.<br>
+				    	Learned how to use GUI!</p>
+				    <div class="text" style="padding-left: 140px;">Mastery Level: <span class="level" style="padding: 0px 30px;"> </span></div>
+		  		</div>
+		  		<div class="mySlidesLanguages fade">
+		    		<img src="images/php.png" style="height: 350px;">
+				    <p class="c4AB19D" style="font-size: 20px;">Still haven't writing php codes! But had watched some tutorials on Youtube. :)</p>
+				    <div class="text" style="padding-left: 140px;">Mastery Level: <span class="level" style="padding: 0px 5px;"> </span></div>
+		  		</div>
+		  		<div class="mySlidesLanguages fade">
+		    		<img src="images/sql.png" style="height: 350px;">
+		    		<p class="c4AB19D" style="font-size: 20px;">Taking DBMS 2 and now using MySQL. Used MySQL as my database on my project last year!</p>
+				    <div class="text" style="padding-left: 140px;">Mastery Level: <span class="level" style="padding: 0px 15px;"> </span></div>
+		  		</div>
+				<!-- The dots/circles -->
+				<div style="text-align:center">
+				  <span class="dotLanguages" onclick="currentSlideLanguages(1)"></span>
+				  <span class="dotLanguages" onclick="currentSlideLanguages(2)"></span>
+				  <span class="dotLanguages" onclick="currentSlideLanguages(3)"></span>
+				  <span class="dotLanguages" onclick="currentSlideLanguages(4)"></span>
+				  <span class="dotLanguages" onclick="currentSlideLanguages(5)"></span>
+				  <span class="dotLanguages" onclick="currentSlideLanguages(6)"></span>
+				  <span class="dotLanguages" onclick="currentSlideLanguages(7)"></span>
+				  <span class="dotLanguages" onclick="currentSlideLanguages(8)"></span>
+				</div>
+			</div>
+	</div>
+</div>
+<div style="height: 2px; background-color: #4AB19D;margin: 0% 20%;"></div>
+
+<div style="clear: left;">
+	<div>
+		<h2 class="c4AB19D">Ask me!</h2>
+	</div>
+	<div>
+		<h3 class="cEFC958">PART 1. Ask me about myself</h3>
+	</div>
+	<div>
+		<table>
+			<tr>
+				<td><button type="button" class="showButton" onclick="showAnswer(0)">Show</button></td>
+				<td>Have you ever cut your hair yourself? <span class="answer">No</span></td>
+			</tr>
+			<tr>
+				<td><button type="button" class="showButton" onclick="showAnswer(1)">Show</button></td>
+				<td>What’s your Instagram @? <span class="answer">@owenfalculan</span></td>
+			</tr>
+			<tr>
+				<td><button type="button" class="showButton" onclick="showAnswer(2)">Show</button></td>
+				<td>Have you ever smoked a cigarette? <span class="answer">Never</span></td>
+			</tr>
+			<tr>
+				<td><button type="button" class="showButton" onclick="showAnswer(3)">Show</button></td>
+				<td>What do you like to do when you’re feeling stressed? <span class="answer">Sleep</span></td>
+			</tr>
+			<tr>
+				<td><button type="button" class="showButton" onclick="showAnswer(4)">Show</button></td>
+				<td>Favorite animal? <span class="answer">Fish</span></td>
+			</tr>
+			<tr>
+				<td><button type="button" class="showButton" onclick="showAnswer(5)">Show</button></td>
+				<td>Do you like to read? <span class="answer">If it's interesting</span></td>
+			</tr>
+			<tr>
+				<td><button type="button" class="showButton" onclick="showAnswer(6)">Show</button></td>
+				<td>Are you an extrovert or introvert? <span class="answer">Ambivert</span></td>
+			</tr>
+			<tr>
+				<td><button type="button" class="showButton" onclick="showAnswer(7)">Show</button></td>
+				<td>Biggest regret? <span class="answer">Fell in love with the wrong person</span></td>
+			</tr>
+		</table>
+	</div>
+
+	<div>
+		<h3 class="cEFC958">PART 2. Ask me if I’m a believer…</h3>
+	</div>
+	<div>
+		<table>
+			<tr>
+				<td><button type="button" class="showButton" onclick="showAnswer(8)">Show</button></td>
+				<td>Do you believe in aliens? <span class="answer">Yes</span></td>
+			</tr>
+			<tr>
+				<td><button type="button" class="showButton" onclick="showAnswer(9)">Show</button></td>
+				<td>Do you think everything happens for a reason? <span class="answer">Yes</span></td>
+			</tr>
+			<tr>
+				<td><button type="button" class="showButton" onclick="showAnswer(10)">Show</button></td>
+				<td>Do you think love at first sight is legit? <span class="answer">No</span></td>
+			</tr>
+			<tr>
+				<td><button type="button" class="showButton" onclick="showAnswer(11)">Show</button></td>
+				<td>Do you think we go to heaven or hell when we die? <span class="answer">Yes</span></td>
+			</tr>
+			<tr>
+				<td><button type="button" class="showButton" onclick="showAnswer(12)">Show</button></td>
+				<td>Do you believe in karma? <span class="answer">Yes</span></td>
+			</tr>
+			<tr>
+				<td><button type="button" class="showButton" onclick="showAnswer(13)">Show</button></td>
+				<td>Do you believe in witches and/or magic? <span class="answer">Yes</span></td>
+			</tr>
+			<tr>
+				<td><button type="button" class="showButton" onclick="showAnswer(14)">Show</button></td>
+				<td>Do you think ghosts are real? <span class="answer">Yes</span></td>
+			</tr>
+			<tr>
+				<td><button type="button" class="showButton" onclick="showAnswer(15)">Show</button></td>
+				<td>Do you believe in anything mythical/supernatural? <br>
+				(Bigfoot, Mermaids, Vampires, etc.) <span class="answer">Yes</span></td>
+			</tr>
+			<tr>
+				<td><button type="button" class="showButton" onclick="showAnswer(16)">Show</button></td>
+				<td>Do you believe in a God? <span class="answer">Yes</span></td>
+			</tr>
+		</table>
+	</div>
+
+	<div>
+		<h3 class="cEFC958">PART 3. Ask me about relationships & love…</h3>
+	</div>
+	<div>
+		<table>
+			<tr>
+				<td><button type="button" class="showButton" onclick="showAnswer(17)">Show</button></td>
+				<td>Are you in love with anyone at the moment? <span class="answer">
+					Pedeng oo pedeng hindi
+				</span></td>
+			</tr>
+			<tr>
+				<td><button type="button" class="showButton" onclick="showAnswer(18)">Show</button></td>
+				<td>Do you want to eventually get married? <span class="answer">No</span></td>
+			</tr>
+			<tr>
+				<td><button type="button" class="showButton" onclick="showAnswer(19)">Show</button></td>
+				<td>Who are your best friends? <span class="answer">Team AFK and Pakambet</span></td>
+			</tr>
+			<tr>
+				<td><button type="button" class="showButton" onclick="showAnswer(20)">Show</button></td>
+				<td>Have you ever had a crush on someone that, now as you look back,<br> is completely 
+			embarrassing? <span class="answer">Yes</span></td>
+			</tr>
+			<tr>
+				<td><button type="button" class="showButton" onclick="showAnswer(21)">Show</button></td>
+				<td>Explain your dream date. <span class="answer">None</span></td>
+			</tr>
+			<tr>
+				<td><button type="button" class="showButton" onclick="showAnswer(22)">Show</button></td>
+				<td>How would you react if you had a secret admirer? <span class="answer">Woah</span></td>
+			</tr>
+			<tr>
+				<td><button type="button" class="showButton" onclick="showAnswer(23)">Show</button></td>
+				<td>Have you ever secretly taken something from a friend <br> and not given it back? <span class="answer">Can't remember</span></td>
+			</tr>
+			<tr>
+				<td><button type="button" class="showButton" onclick="showAnswer(24)">Show</button></td>
+				<td>How would you react if a friend started dating your ex? <span class="answer">No ex</span></td>
+			</tr>
+			<tr>
+				<td><button type="button" class="showButton" onclick="showAnswer(25)">Show</button></td>
+				<td>Are you currently single? <span class="answer">Yes</span></td>
+			</tr>
+		</table>
+	</div>
+
+	
+	<div>
+		<h3 class="cEFC958">PART 4. Ask me about my favorite things!</h3>
+	</div>
+	<div>
+		<table>
+			<tr>
+				<td><button type="button" class="showButton" onclick="showAnswer(26)">Show</button></td>
+				<td>Favorite song from before 2005? <span class="answer">When I met you</span></td>
+			</tr>
+			<tr>
+				<td><button type="button" class="showButton" onclick="showAnswer(27)">Show</button></td>
+				<td>Favorite movie? <span class="answer">Interstellar</span></td>
+			</tr>
+			<tr>
+				<td><button type="button" class="showButton" onclick="showAnswer(28)">Show</button></td>
+				<td>Favorite song right now? <span class="answer">The Woman I love</span></td>
+			</tr>
+			<tr>
+				<td><button type="button" class="showButton" onclick="showAnswer(29)">Show</button></td>
+				<td>Favorite quote? <span class="answer">"There are always two sides in every stories."</span></td>
+			</tr>
+			<tr>
+				<td><button type="button" class="showButton" onclick="showAnswer(30)">Show</button></td>
+				<td>Favorite thing to do when you’re bored? <span class="answer">Take a nap</span></td>
+			</tr>
+			<tr>
+				<td><button type="button" class="showButton" onclick="showAnswer(31)">Show</button></td>
+				<td>Favorite food? <span class="answer">Lasagna</span></td>
+			</tr>
+			<tr>
+				<td><button type="button" class="showButton" onclick="showAnswer(32)">Show</button></td>
+				<td>Favorite musician? <span class="answer">Jason Mraz</span></td>
+			</tr>
+			<tr>
+				<td><button type="button" class="showButton" onclick="showAnswer(33)">Show</button></td>
+				<td>Favorite sport? <span class="answer">Basketball</span></td>
+			</tr>
+		</table>
+	</div>
+	<div style="height: 2px; background-color: #4AB19D;margin: 20px 20%;"></div>
+</div>	
+
+<div class="window">
+	<h2 class="cEFC958">Play with Me!</h2>
+	<div>
+		<div class="me">Me</div>
+		<div class="you">You</div>
+	</div>
+	<div class="hands">
+		<div style="float: left;margin-top:20px;margin-left: 100px;">
+			<div class="meHands" id="meRock">
+				<img src="images/rockComputer.png">
+			</div>
+			<div class="meHands">
+				<img src="images/paperComputer.png">
+			</div>
+			<div class="meHands">
+				<img src="images/scissorComputer.png">
+			</div>
+		</div>
+		<div style="float: right;margin-top:80px;margin-right: 130px;">
+			<div class="youHands" id="youRock">
+				<img src="images/rockPlayer.png" style="max-width: 200px;">
+			</div>
+			<div class="youHands">
+				<img src="images/paperPlayer.png" style="max-width: 200px;">
+			</div>
+			<div class="youHands">
+				<img src="images/scissorPlayer.png" style="max-width: 200px;">
+			</div>
+		</div>
+	</div>
+	<div style="height: 130px;">
+		<div class="scores">
+			<p class="cE17A47">Scores <br>
+			Me: <span id="meScore">0</span>/5 <br>
+			You: <span id="youScore">0</span>/5 <br>
+			</p>
+		</div>
+		<div class="gameButton">
+			<button type="button" id="game">Bato-Bato Pick!</button>
+		</div>
+		<div class="weapons">
+			<label class="containerRadio">Rock
+			  <input type="radio" checked="checked" name="radio" id="rock">
+			  <span class="checkmark"></span>
+			</label>
+			<label class="containerRadio">Paper
+			  <input type="radio" name="radio" id="paper">
+			  <span class="checkmark"></span>
+			</label>
+			<label class="containerRadio">Scissor
+			  <input type="radio" name="radio" id="scissor">
+			  <span class="checkmark"></span>
+			</label>
+		</div>
+	</div>
+</div>
+
+
+
+<script>
+var slideIndexSports = 1;
+var slideIndexLanguages = 1;
+var indexNavigate = 1;
+showSlidesSports(slideIndexSports);
+showSlidesLanguages(slideIndexLanguages);
+navigateSlides(indexNavigate);
+
+function currentSlideSports(n) {
+  showSlidesSports(slideIndexSports = n);
+}
+
+function currentSlideLanguages(n) {
+  showSlidesLanguages(slideIndexLanguages = n);
+}
+
+function currentNavigate(n) {
+  navigateSlides(indexNavigate = n);
+}
+
+function showSlidesSports(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlidesSports");
+  var dots = document.getElementsByClassName("dotSports");
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" activeSports", "");
+  }
+  slides[slideIndexSports-1].style.display = "block";  
+  dots[slideIndexSports-1].className += " activeSports";
+
+}
+function showSlidesLanguages(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlidesLanguages");
+  var dots = document.getElementsByClassName("dotLanguages");
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" activeLanguages", "");
+  }
+  slides[slideIndexLanguages-1].style.display = "block";  
+  dots[slideIndexLanguages-1].className += " activeLanguages";
+}	
+
+function navigateSlides(n) {
+  var i;
+  var dots = document.getElementsByClassName("navigate");
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" activeNavigate", "");
+  }
+  dots[indexNavigate-1].className += " activeNavigate";
+  if(n==1){
+  	 document.getElementsByClassName("c344E5C")[0].className = "a";
+  }else{
+  	 document.getElementsByClassName("a")[0].className = "c344E5C"
+  	}
+  }
+
+function showAnswer(n){
+  var answers = document.getElementsByClassName("answer");	
+  for (i = 0; i < answers.length; i++) {
+      answers[i].style.display = "none";  
+  }
+  answers[n].style.display = "inline"; 
+}
+
+displayFirst();
+function displayFirst(){
+	document.getElementsByClassName("meHands")[0].style.display = "block";
+	document.getElementsByClassName("youHands")[0].style.display = "block";
+}
+
+$(document).ready(function(){
+  $("#game").click(function(){
+    var meHands = document.getElementsByClassName("meHands");
+    var youHands = document.getElementsByClassName("youHands");
+    var random = Math.floor(Math.random() * 3);
+    var player;
+    for(var i = 0;i<3;i++){
+		meHands[i].style.display = "none";
+		youHands[i].style.display = "none";
+    }
+    meHands[0].style.display = "block";
+    youHands[0].style.display = "block";
+    $("#meRock").addClass("shakeHands").one("webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend", function(){
+           $("#meRock").removeClass( "shakeHands" );
+           meHands[0].style.display = "none";
+           meHands[random].style.display = "block";
+   	});
+   	$("#youRock").addClass("shakeHands").one("webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend", function(){
+           $("#youRock").removeClass("shakeHands");
+           youHands[0].style.display = "none";
+           if(document.getElementById("rock").checked){
+		    	youHands[0].style.display = "block";
+		    	player = 0;
+		    }
+		    else if(document.getElementById("paper").checked){
+		    	youHands[1].style.display = "block";
+		    	player = 1;
+		    }else{
+		    	youHands[2].style.display = "block";
+		    	player = 2;
+		    }
+		    if(player==random){
+
+		    }else if(player==0 && random==1 || player==1 && random==2 || player==2 && random==0){
+		    	document.getElementById("meScore").innerHTML = parseInt(document.getElementById("meScore").innerHTML)+1;
+		    }else{
+		    	document.getElementById("youScore").innerHTML = parseInt(document.getElementById("youScore").innerHTML)+1;
+		    }
+		    if(document.getElementById("meScore").innerHTML=="5"){
+		    	setTimeout(function(){alert("I Win!")},500);
+		    	document.getElementById("meScore").innerHTML = "0";
+		    	document.getElementById("youScore").innerHTML = "0";
+		    }
+		    if(document.getElementById("youScore").innerHTML=="5"){
+		    	setTimeout(function(){alert("You Win!")},500);
+		    	document.getElementById("meScore").innerHTML = "0";
+		    	document.getElementById("youScore").innerHTML = "0";
+		    }
+           
+   	});
+  });
+});
+
+</script>
+
+</body>
+</html>
